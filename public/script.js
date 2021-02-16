@@ -2,7 +2,7 @@ const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const peerHost = process.env.NODE_ENV === 'production' ? '34.94.106.163' : '/'
 const myPeer = new Peer(undefined, {
-  host: 'https://34.94.106.163',
+  host: '/',
   port: '3001'
 })
 const myVideo = document.createElement('video')
