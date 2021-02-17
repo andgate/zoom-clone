@@ -4,7 +4,7 @@
   "description": "Zoom clone",
   "main": "index.js",
   "scripts": {
-    "start": "npm run peer & node server.js",
+    "start": "node server.js",
     "dev:start": "nodemon server.js",
     "peer": "peerjs --port 3001",
     "deploy": "gcloud app deploy",
